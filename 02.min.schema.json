@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "requestMethod": {
+        "type": "string"
+      },
+      "requestURL": {
+        "type": "string"
+      },
+      "startTime": {
+        "type": "string"
+      },
+      "itemID": {
+        "type": "string"
+      },
+      "responseBody": {
+        "type": "object",
+        "properties": {
+          "view": {
+            "type": "string"
+          },
+          "item": {
+            "type": "object",
+            "properties": {
+              "uin": {
+                "type": "string"
+              },
+              "itemType": {
+                "type": "string"
+              },
+              "itemName": {
+                "type": "string"
+              },
+              "version": {
+                "type": "integer"
+              },
+              "created": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "uin",
+              "itemType",
+              "itemName",
+              "version",
+              "created"
+            ]
+          }
+        },
+        "required": [
+          "view",
+          "item"
+        ]
+      },
+      "reqToken": {
+        "type": "string"
+      },
+      "endTime": {
+        "type": "string"
+      },
+      "elapsedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "statusCode",
+      "requestMethod",
+      "requestURL",
+      "startTime",
+      "itemID",
+      "responseBody",
+      "reqToken",
+      "endTime",
+      "elapsedTime"
+    ]
+  }
