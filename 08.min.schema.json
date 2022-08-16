@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "requestMethod": {
+        "type": "string"
+      },
+      "requestURL": {
+        "type": "string"
+      },
+      "startTime": {
+        "type": "string"
+      },
+      "partnerID": {
+        "type": "string"
+      },
+      "itemID": {
+        "type": "string"
+      },
+      "reqView": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "responseBody": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer"
+          },
+          "offset": {
+            "type": "integer"
+          },
+          "view": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "items": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "uin": {
+                    "type": "string"
+                  },
+                  "itemType": {
+                    "type": "string"
+                  },
+                  "itemName": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "integer"
+                  },
+                  "created": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "uin",
+                  "itemType",
+                  "itemName",
+                  "version",
+                  "created"
+                ]
+              }
+            ]
+          },
+          "itemCount": {
+            "type": "integer"
+          },
+          "attributeCount": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "limit",
+          "offset",
+          "view",
+          "items",
+          "itemCount",
+          "attributeCount"
+        ]
+      },
+      "reqToken": {
+        "type": "string"
+      },
+      "endTime": {
+        "type": "string"
+      },
+      "elapsedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "statusCode",
+      "requestMethod",
+      "requestURL",
+      "startTime",
+      "partnerID",
+      "itemID",
+      "reqView",
+      "responseBody",
+      "reqToken",
+      "endTime",
+      "elapsedTime"
+    ]
+  }
