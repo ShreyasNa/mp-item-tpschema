@@ -1,0 +1,1730 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "statusCode": {
+      "type": "integer"
+    },
+    "requestMethod": {
+      "type": "string"
+    },
+    "requestURL": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "string"
+    },
+    "partnerID": {
+      "type": "string"
+    },
+    "itemType": {
+      "type": "string"
+    },
+    "itemID": {
+      "type": "string"
+    },
+    "linkType": {
+      "type": "string"
+    },
+    "reqView": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "responseBody": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "integer"
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "view": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "partnerID": {
+                  "type": "string"
+                },
+                "partnerItemID": {
+                  "type": "string"
+                },
+                "itemType": {
+                  "type": "string"
+                },
+                "itemName": {
+                  "type": "string"
+                },
+                "version": {
+                  "type": "integer"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "shapedAtts": {
+                  "type": "object",
+                  "properties": {
+                    "itemDataType": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "shortName": {
+                          "type": "string"
+                        },
+                        "dataSchema": {
+                          "type": "string"
+                        },
+                        "metaDataSchema": {
+                          "type": "string"
+                        },
+                        "version": {
+                          "type": "integer"
+                        },
+                        "created": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "shortName",
+                        "dataSchema",
+                        "metaDataSchema",
+                        "version",
+                        "created"
+                      ]
+                    },
+                    "version": {
+                      "type": "integer"
+                    },
+                    "attributes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "attID": {
+                              "type": "string"
+                            },
+                            "attAltName1": {
+                              "type": "null"
+                            },
+                            "attAltName2": {
+                              "type": "null"
+                            },
+                            "values": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "attID",
+                            "attAltName1",
+                            "attAltName2",
+                            "values"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "itemDataType",
+                    "version",
+                    "attributes"
+                  ]
+                },
+                "relatedTo": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "linkType": {
+                          "type": "string"
+                        },
+                        "partnerID": {
+                          "type": "string"
+                        },
+                        "partnerItemID": {
+                          "type": "string"
+                        },
+                        "itemType": {
+                          "type": "string"
+                        },
+                        "itemName": {
+                          "type": "string"
+                        },
+                        "version": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "linkType",
+                        "partnerID",
+                        "partnerItemID",
+                        "itemType",
+                        "itemName",
+                        "version"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "partnerID",
+                "partnerItemID",
+                "itemType",
+                "itemName",
+                "version",
+                "created",
+                "shapedAtts",
+                "relatedTo"
+              ]
+            }
+          ]
+        },
+        "attributeDetails": {
+          "type": "object",
+          "properties": {
+            "1100": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "111114384": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "111116939": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "111123635": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11113805": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11113839": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11114053": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11114055": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11114056": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "11122": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "113319": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "12389": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "129": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "1451": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "1452": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "1585": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "179": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "1820": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "1975": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "itemDescription": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "itemName": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "keywords": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "mfgName": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "mfgPartNum": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            },
+            "unspsc": {
+              "type": "object",
+              "properties": {
+                "attID": {
+                  "type": "string"
+                },
+                "attName": {
+                  "type": "string"
+                },
+                "attAltName1": {
+                  "type": "null"
+                },
+                "attAltName2": {
+                  "type": "null"
+                },
+                "multiValued": {
+                  "type": "boolean"
+                },
+                "formatted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "attID",
+                "attName",
+                "attAltName1",
+                "attAltName2",
+                "multiValued",
+                "formatted"
+              ]
+            }
+          },
+          "required": [
+            "1100",
+            "111114384",
+            "111116939",
+            "111123635",
+            "11113805",
+            "11113839",
+            "11114053",
+            "11114055",
+            "11114056",
+            "11122",
+            "113319",
+            "12389",
+            "129",
+            "1451",
+            "1452",
+            "1585",
+            "179",
+            "1820",
+            "1975",
+            "itemDescription",
+            "itemName",
+            "keywords",
+            "mfgName",
+            "mfgPartNum",
+            "unspsc"
+          ]
+        },
+        "itemCount": {
+          "type": "integer"
+        },
+        "attributeCount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "offset",
+        "view",
+        "items",
+        "attributeDetails",
+        "itemCount",
+        "attributeCount"
+      ]
+    },
+    "reqToken": {
+      "type": "string"
+    },
+    "endTime": {
+      "type": "string"
+    },
+    "elapsedTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "statusCode",
+    "requestMethod",
+    "requestURL",
+    "startTime",
+    "partnerID",
+    "itemType",
+    "itemID",
+    "linkType",
+    "reqView",
+    "responseBody",
+    "reqToken",
+    "endTime",
+    "elapsedTime"
+  ]
+}
