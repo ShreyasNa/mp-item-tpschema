@@ -1,0 +1,1509 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "requestMethod": {
+        "type": "string"
+      },
+      "requestURL": {
+        "type": "string"
+      },
+      "startTime": {
+        "type": "string"
+      },
+      "partnerID": {
+        "type": "string"
+      },
+      "itemType": {
+        "type": "string"
+      },
+      "itemID": {
+        "type": "string"
+      },
+      "reqView": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "responseBody": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer"
+          },
+          "offset": {
+            "type": "integer"
+          },
+          "view": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "items": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "partnerID": {
+                    "type": "string"
+                  },
+                  "partnerItemID": {
+                    "type": "string"
+                  },
+                  "itemType": {
+                    "type": "string"
+                  },
+                  "itemName": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "integer"
+                  },
+                  "created": {
+                    "type": "string"
+                  },
+                  "normalAtts": {
+                    "type": "object",
+                    "properties": {
+                      "itemDataType": {
+                        "type": "object",
+                        "properties": {
+                          "name": {
+                            "type": "string"
+                          },
+                          "shortName": {
+                            "type": "string"
+                          },
+                          "dataSchema": {
+                            "type": "string"
+                          },
+                          "metaDataSchema": {
+                            "type": "string"
+                          },
+                          "version": {
+                            "type": "integer"
+                          },
+                          "created": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "name",
+                          "shortName",
+                          "dataSchema",
+                          "metaDataSchema",
+                          "version",
+                          "created"
+                        ]
+                      },
+                      "version": {
+                        "type": "integer"
+                      },
+                      "attributes": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "attID": {
+                                "type": "string"
+                              },
+                              "values": {
+                                "type": "array",
+                                "items": [
+                                  {
+                                    "type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "required": [
+                              "attID",
+                              "values"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "itemDataType",
+                      "version",
+                      "attributes"
+                    ]
+                  }
+                },
+                "required": [
+                  "partnerID",
+                  "partnerItemID",
+                  "itemType",
+                  "itemName",
+                  "version",
+                  "created",
+                  "normalAtts"
+                ]
+              }
+            ]
+          },
+          "attributeDetails": {
+            "type": "object",
+            "properties": {
+              "catalogs": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "category": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "contract_price": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "currency": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "department": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "display_end_date": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "display_start_date": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "hazardous_item": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "image": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "in_stock": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "is_qty_decimal": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "lead_time": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "linked_sku": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "list_price": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "long_description": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "manufacturer": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "max_quantity": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "mfg_part_num": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "minimum_quantity": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "oversized_delivery_item": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "quantity_increments": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "safety_data_sheets": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "service_type": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "short_description": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "status": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "sub_category": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "unspsc": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "uom": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "upc": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              },
+              "visibility": {
+                "type": "object",
+                "properties": {
+                  "attID": {
+                    "type": "string"
+                  },
+                  "attName": {
+                    "type": "string"
+                  },
+                  "multiValued": {
+                    "type": "boolean"
+                  },
+                  "formatted": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "attID",
+                  "attName",
+                  "multiValued",
+                  "formatted"
+                ]
+              }
+            },
+            "required": [
+              "catalogs",
+              "category",
+              "contract_price",
+              "currency",
+              "department",
+              "display_end_date",
+              "display_start_date",
+              "hazardous_item",
+              "image",
+              "in_stock",
+              "is_qty_decimal",
+              "lead_time",
+              "linked_sku",
+              "list_price",
+              "long_description",
+              "manufacturer",
+              "max_quantity",
+              "mfg_part_num",
+              "minimum_quantity",
+              "oversized_delivery_item",
+              "quantity_increments",
+              "safety_data_sheets",
+              "service_type",
+              "short_description",
+              "status",
+              "sub_category",
+              "unspsc",
+              "uom",
+              "upc",
+              "visibility"
+            ]
+          },
+          "itemCount": {
+            "type": "integer"
+          },
+          "attributeCount": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "limit",
+          "offset",
+          "view",
+          "items",
+          "attributeDetails",
+          "itemCount",
+          "attributeCount"
+        ]
+      },
+      "reqToken": {
+        "type": "string"
+      },
+      "endTime": {
+        "type": "string"
+      },
+      "elapsedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "statusCode",
+      "requestMethod",
+      "requestURL",
+      "startTime",
+      "partnerID",
+      "itemType",
+      "itemID",
+      "reqView",
+      "responseBody",
+      "reqToken",
+      "endTime",
+      "elapsedTime"
+    ]
+  }

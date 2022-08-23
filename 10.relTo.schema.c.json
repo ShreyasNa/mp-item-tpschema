@@ -1,0 +1,143 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "requestMethod": {
+        "type": "string"
+      },
+      "requestURL": {
+        "type": "string"
+      },
+      "startTime": {
+        "type": "string"
+      },
+      "partnerID": {
+        "type": "string"
+      },
+      "itemType": {
+        "type": "string"
+      },
+      "itemID": {
+        "type": "string"
+      },
+      "reqView": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "responseBody": {
+        "type": "object",
+        "properties": {
+          "view": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "item": {
+            "type": "object",
+            "properties": {
+              "partnerID": {
+                "type": "string"
+              },
+              "partnerItemID": {
+                "type": "string"
+              },
+              "itemType": {
+                "type": "string"
+              },
+              "itemName": {
+                "type": "string"
+              },
+              "version": {
+                "type": "integer"
+              },
+              "created": {
+                "type": "string"
+              },
+              "relatedTo": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "linkType": {
+                        "type": "string"
+                      },
+                      "uin": {
+                        "type": "string"
+                      },
+                      "itemType": {
+                        "type": "string"
+                      },
+                      "itemName": {
+                        "type": "string"
+                      },
+                      "version": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "linkType",
+                      "uin",
+                      "itemType",
+                      "itemName",
+                      "version"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "partnerID",
+              "partnerItemID",
+              "itemType",
+              "itemName",
+              "version",
+              "created",
+              "relatedTo"
+            ]
+          }
+        },
+        "required": [
+          "view",
+          "item"
+        ]
+      },
+      "reqToken": {
+        "type": "string"
+      },
+      "endTime": {
+        "type": "string"
+      },
+      "elapsedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "statusCode",
+      "requestMethod",
+      "requestURL",
+      "startTime",
+      "partnerID",
+      "itemType",
+      "itemID",
+      "reqView",
+      "responseBody",
+      "reqToken",
+      "endTime",
+      "elapsedTime"
+    ]
+  }

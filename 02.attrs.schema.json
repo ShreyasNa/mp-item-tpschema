@@ -1,0 +1,948 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "statusCode": {
+        "type": "integer"
+      },
+      "requestMethod": {
+        "type": "string"
+      },
+      "requestURL": {
+        "type": "string"
+      },
+      "startTime": {
+        "type": "string"
+      },
+      "itemID": {
+        "type": "string"
+      },
+      "reqView": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "responseBody": {
+        "type": "object",
+        "properties": {
+          "view": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "item": {
+            "type": "object",
+            "properties": {
+              "uin": {
+                "type": "string"
+              },
+              "itemType": {
+                "type": "string"
+              },
+              "itemName": {
+                "type": "string"
+              },
+              "version": {
+                "type": "integer"
+              },
+              "created": {
+                "type": "string"
+              },
+              "normalAtts": {
+                "type": "object",
+                "properties": {
+                  "itemDataType": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "shortName": {
+                        "type": "string"
+                      },
+                      "dataSchema": {
+                        "type": "string"
+                      },
+                      "metaDataSchema": {
+                        "type": "string"
+                      },
+                      "version": {
+                        "type": "integer"
+                      },
+                      "created": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "shortName",
+                      "dataSchema",
+                      "metaDataSchema",
+                      "version",
+                      "created"
+                    ]
+                  },
+                  "version": {
+                    "type": "integer"
+                  },
+                  "attributes": {
+                    "type": "array",
+                    "items": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "attID": {
+                            "type": "string"
+                          },
+                          "attName": {
+                            "type": "string"
+                          },
+                          "multiValued": {
+                            "type": "boolean"
+                          },
+                          "formatted": {
+                            "type": "boolean"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": [
+                              {
+                                "type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "required": [
+                          "attID",
+                          "attName",
+                          "multiValued",
+                          "formatted",
+                          "values"
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "itemDataType",
+                  "version",
+                  "attributes"
+                ]
+              }
+            },
+            "required": [
+              "uin",
+              "itemType",
+              "itemName",
+              "version",
+              "created",
+              "normalAtts"
+            ]
+          }
+        },
+        "required": [
+          "view",
+          "item"
+        ]
+      },
+      "reqToken": {
+        "type": "string"
+      },
+      "endTime": {
+        "type": "string"
+      },
+      "elapsedTime": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "statusCode",
+      "requestMethod",
+      "requestURL",
+      "startTime",
+      "itemID",
+      "reqView",
+      "responseBody",
+      "reqToken",
+      "endTime",
+      "elapsedTime"
+    ]
+  }
